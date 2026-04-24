@@ -1,0 +1,14 @@
+# Archivos temporales de Jupyter
+.ipynb_checkpoints/
+*.pyc
+__pycache__/
+
+# Entornos virtuales
+venv/
+env/
+.env/
+
+# Archivos pesados o sensibles 
+*.log
+*.tmp
+
