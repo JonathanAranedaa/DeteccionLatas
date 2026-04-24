@@ -5,12 +5,19 @@ Clasificación binaria (Latas / No Latas) mediante una MLP en PyTorch.
 
 ## Dataset
 - Fuente: (https://drive.google.com/file/d/1k3xNICLnAYv-mA90u3eP6qNjuJ_otsel/view?usp=sharing)
-- Estructura esperada:
-  Dataset/
-    train/Latas/
-    train/No_Latas/
-    valid/...
-    test/...
+
+## Estructura esperada del dataset:
+
+Dataset/
+├── train/
+│   ├── Latas/       
+│   └── No_Latas/    
+├── valid/
+│   ├── Latas/
+│   └── No_Latas/
+└── test/
+    ├── Latas/
+    └── No_Latas/
 - Preprocesamiento: redimensionado a 64×64, normalización ImageNet.
 
 ## Configuración óptima encontrada
